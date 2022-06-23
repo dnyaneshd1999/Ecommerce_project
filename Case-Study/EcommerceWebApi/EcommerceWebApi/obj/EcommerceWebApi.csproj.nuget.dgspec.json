@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {}
+    "C:\\Ecommerce_project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {
+    "C:\\Ecommerce_project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
+        "projectUniqueName": "C:\\Ecommerce_project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
         "projectName": "EcommerceWebApi",
-        "projectPath": "C:\\Project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
+        "projectPath": "C:\\Ecommerce_project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\EcommerceWebApi.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\obj\\",
+        "outputPath": "C:\\Ecommerce_project\\Case-Study\\EcommerceWebApi\\EcommerceWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
