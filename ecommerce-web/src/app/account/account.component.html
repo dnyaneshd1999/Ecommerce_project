@@ -6,8 +6,9 @@
             <div class="card-body">
                 <h5 class="card-title">{{product.productName}}</h5>
                 <p class="card-text">{{product.productDescription}}</p>
-                <p class="card-text">price = {{product.productMrp}} ₹</p>
-                <a class="btn btn-primary"routerLink="/cart">Buy</a>
+                <p class="card-text">price ={{product.productMrp}} ₹</p>
+                <a routerLink="/cart" class="btn btn-primary" style="margin-right: 20px;" (click)="addtocart(product)" >Add to Cart</a>
+                
             </div>
         </div>
     </div>

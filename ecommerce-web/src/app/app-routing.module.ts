@@ -26,17 +26,17 @@ const routes: Routes = [
     component: RegisterComponent
   },
   {
-    path:'cart',
-    component:CartComponent
-  },
-  {
     path: 'account',
     component: AccountComponent
   },
   {
     path: 'dashboard',
     component: DashboardComponent
-  }
+  },
+  {
+    path:'cart',
+    component:CartComponent
+  },
 ];
 
 @NgModule({
