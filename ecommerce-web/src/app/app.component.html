@@ -2,7 +2,8 @@
   <div class="container-fluid">
     <span><img class="navbar-logo" src="../../assets/logo.jpg"></span>
     <a class="navbar-brand" routerLink="/home">E-Shopping</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -14,16 +15,16 @@
           <a class="nav-link" *ngIf="LoggedIn(false)" routerLink="/login">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  *ngIf="LoggedIn(false)" routerLink="/register">Register</a>
+          <a class="nav-link" *ngIf="LoggedIn(false)" routerLink="/register">Register</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  *ngIf="LoggedIn(false)" routerLink="/register">Card</a>
+          <a class="nav-link" *ngIf="LoggedIn(true)" routerLink="/account">My Account</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  *ngIf="LoggedIn(true)" routerLink="/account">My Account</a>
+          <a class="nav-link" *ngIf="LoggedIn(true)" (click)="LogOut()">Logout</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  *ngIf="LoggedIn(true)" (click)="LogOut()">Logout</a>
+          <a class="nav-link" routerLink="/Cart">Cart</a>
         </li>
       </ul>
     </div>
