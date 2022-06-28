@@ -1,2 +1,17 @@
 
 <img class="card-img-top" src="../../assets/banner.jpg" alt="Card image cap" style="height: 37em;">
+
+<div class="row mt-5">
+    <div class="col-md-4 mb-3" *ngFor="let product of products">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../../assets/{{product.productImage}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{product.productName}}</h5>
+                <p class="card-text">{{product.productDescription}}</p>
+                <p class="card-text">price ={{product.productMrp}} ₹</p>
+                <a routerLink="/cart" class="btn btn-primary" style="margin-right: 20px;" (click)="addtocart(product)" >Add to Cart</a>
+
+            </div>
+        </div>
+    </div>
+</div>

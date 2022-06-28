@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { AuthService } from './services/auth.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartComponent } from './cart/cart.component';
+import { AddressComponent } from './address/address.component';
+import { FinalorderComponent } from './finalorder/finalorder.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { CartComponent } from './cart/cart.component';
     HomeComponent,
     DashboardComponent,
     CartComponent,
+    AddressComponent,
+    FinalorderComponent,
   ],
   imports: [
     BrowserModule,
